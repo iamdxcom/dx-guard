@@ -24,8 +24,6 @@
     "url": "https://github.com/iamdxcom/dx-guard/issues"
   },
   "files": [
-    "hooks/",
-    "commands/",
     "README.md",
     "LICENSE"
   ],
