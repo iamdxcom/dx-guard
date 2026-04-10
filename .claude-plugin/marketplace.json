@@ -1,0 +1,26 @@
+{
+  "name": "dx-guard",
+  "owner": {
+    "name": "Onur Erkan",
+    "email": "onur@iamdx.com"
+  },
+  "metadata": {
+    "description": "Dependency security guard for AI coding agents. Powered by OSV.dev.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "dx-guard",
+      "source": "./",
+      "description": "Automatically scans npm and Python packages for known vulnerabilities before your AI agent installs them. Zero config. Zero API keys. Powered by OSV.dev.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Onur Erkan"
+      },
+      "homepage": "https://github.com/iamdxcom/dx-guard",
+      "repository": "https://github.com/iamdxcom/dx-guard",
+      "license": "MIT",
+      "keywords": ["security", "vulnerability", "supply-chain", "osv", "npm", "python", "dependency"]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "dx-guard",
+  "version": "1.0.0",
+  "description": "Dependency security guard for AI coding agents. Automatically scans npm and Python packages for known vulnerabilities before install. Zero config. Powered by OSV.dev.",
+  "keywords": [
+    "claude-plugin",
+    "security",
+    "vulnerability",
+    "supply-chain",
+    "osv",
+    "npm",
+    "python",
+    "dependency-scanning",
+    "ai-agent"
+  ],
+  "author": "Onur Erkan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamdxcom/dx-guard.git"
+  },
+  "homepage": "https://github.com/iamdxcom/dx-guard#readme",
+  "bugs": {
+    "url": "https://github.com/iamdxcom/dx-guard/issues"
+  },
+  "files": [
+    "hooks/",
+    "commands/",
+    "README.md",
+    "LICENSE"
+  ],
+  "claude": {
+    "version": 1,
+    "type": "plugin",
+    "hooks": "hooks/hooks.json",
+    "commands": "commands/"
+  }
+}

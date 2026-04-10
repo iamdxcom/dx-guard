@@ -1,0 +1,24 @@
+{
+  "name": "dx-guard",
+  "description": "Dependency security guard for AI coding agents. Scans npm/pip/pnpm/yarn packages for known vulnerabilities before installation using OSV.dev — zero config, zero API keys.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Onur Erkan",
+    "url": "https://iamdx.com"
+  },
+  "homepage": "https://github.com/iamdxcom/dx-guard",
+  "repository": "https://github.com/iamdxcom/dx-guard",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "npm",
+    "pip",
+    "supply-chain",
+    "vulnerability",
+    "osv",
+    "dependency",
+    "guard"
+  ],
+  "commands": ["./commands/"],
+  "hooks": "./hooks/hooks.json"
+}
