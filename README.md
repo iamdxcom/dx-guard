@@ -33,11 +33,17 @@ For **malicious packages**, dx-guard blocks the install entirely:
 
 ### Claude Code Plugin (recommended)
 
-```bash
-claude plugin add dx-guard
+Run these three commands inside Claude Code:
+
+```
+/plugin marketplace add iamdxcom/dx-guard
+/plugin install dx-guard@iamdxcom-dx-guard
+/reload-plugins
 ```
 
 That's it. dx-guard is now active for all Claude Code sessions.
+
+> **Note:** Once dx-guard is published to the official Claude plugin store, you'll be able to install it with a single command: `claude plugin add dx-guard`
 
 ### Manual setup
 

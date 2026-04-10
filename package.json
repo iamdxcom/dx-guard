@@ -32,7 +32,6 @@
   "claude": {
     "version": 1,
     "type": "plugin",
-    "hooks": "hooks/hooks.json",
     "commands": "commands/"
   }
 }
